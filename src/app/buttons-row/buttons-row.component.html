@@ -1,0 +1,3 @@
+<div class="row">
+    <app-calc-button *ngFor="let item of buttons" [id] = "item" (id_emitter) = "display_click($event)" ></app-calc-button>
+</div>
